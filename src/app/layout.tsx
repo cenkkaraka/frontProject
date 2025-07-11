@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { BalanceProvider } from "@/context/balanceContext/BalanceContext";
 
 export const metadata: Metadata = {
   title: "Example Project",
@@ -14,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <BalanceProvider>
         {children}
+        </BalanceProvider>
       </body>
     </html>
   );

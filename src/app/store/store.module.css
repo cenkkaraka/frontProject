@@ -1,0 +1,44 @@
+.flowerContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.bas{
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonGame{
+    display:flex;
+    align-self:flex-end;
+}
+.flowerbox{
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 500px;
+        gap: 5px;
+        border-radius: 10%;
+        background-color: pink;
+        
+}
+.button{
+    background-color: beige;
+    height: 35px;
+    width: 35px;
+}
+.buttonal{
+    background-color: beige;
+    height: 40px;
+    width: 70px;
+}

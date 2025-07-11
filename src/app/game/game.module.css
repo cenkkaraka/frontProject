@@ -7,6 +7,14 @@
         background-color:  #f0f8e6;;
         justify-content: center;
         align-items: center;
-        
+        margin-left: 450px;
         
     }
+.btn{
+    background-color: beige;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}

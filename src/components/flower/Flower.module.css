@@ -1,0 +1,12 @@
+.flowerbox{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 400px;
+        gap: 5px;
+        border-radius: 10%;
+        background-color: beige;
+        
+}
